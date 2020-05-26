@@ -54,7 +54,7 @@ class Dog extends Animal {
     this.says = says;
   }
   bark() {
-    return `${this.says}, ${this.says}`;
+    return `${this.says}, ${this.says}!`;
   }
 
   stop() {
